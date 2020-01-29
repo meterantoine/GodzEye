@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6706501923ABEB4700FDFAC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706501823ABEB4700FDFAC9 /* AppDelegate.swift */; };
+		6706501B23ABEB4700FDFAC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706501A23ABEB4700FDFAC9 /* SceneDelegate.swift */; };
+		6706501D23ABEB4700FDFAC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706501C23ABEB4700FDFAC9 /* ViewController.swift */; };
+		6706502023ABEB4700FDFAC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6706501E23ABEB4700FDFAC9 /* Main.storyboard */; };
+		6706502323ABEB4700FDFAC9 /* Godz_Eye.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6706502123ABEB4700FDFAC9 /* Godz_Eye.xcdatamodeld */; };
+		6706502523ABEB4F00FDFAC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6706502423ABEB4F00FDFAC9 /* Assets.xcassets */; };
+		6706502823ABEB4F00FDFAC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6706502623ABEB4F00FDFAC9 /* LaunchScreen.storyboard */; };
+		6706503323AC041600FDFAC9 /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6706503223AC041600FDFAC9 /* NetworkingClient.swift */; };
+		76C4DD38E1592D643100211A /* Pods_Godz_Eye.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F9FC0735E14D3928ACDECF /* Pods_Godz_Eye.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2903241E62DCC18C775D4D19 /* Pods-Godz Eye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godz Eye.release.xcconfig"; path = "Target Support Files/Pods-Godz Eye/Pods-Godz Eye.release.xcconfig"; sourceTree = "<group>"; };
+		6706501523ABEB4700FDFAC9 /* Godz Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Godz Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6706501823ABEB4700FDFAC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6706501A23ABEB4700FDFAC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6706501C23ABEB4700FDFAC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6706501F23ABEB4700FDFAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6706502223ABEB4700FDFAC9 /* Godz_Eye.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Godz_Eye.xcdatamodel; sourceTree = "<group>"; };
+		6706502423ABEB4F00FDFAC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6706502723ABEB4F00FDFAC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6706502923ABEB4F00FDFAC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6706503223AC041600FDFAC9 /* NetworkingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
+		869DFF5B05410986C34DACC6 /* Pods-Godz Eye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Godz Eye.debug.xcconfig"; path = "Target Support Files/Pods-Godz Eye/Pods-Godz Eye.debug.xcconfig"; sourceTree = "<group>"; };
+		87F9FC0735E14D3928ACDECF /* Pods_Godz_Eye.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Godz_Eye.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6706501223ABEB4700FDFAC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76C4DD38E1592D643100211A /* Pods_Godz_Eye.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02150D88AFE3C099A50B60B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				869DFF5B05410986C34DACC6 /* Pods-Godz Eye.debug.xcconfig */,
+				2903241E62DCC18C775D4D19 /* Pods-Godz Eye.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6706500C23ABEB4700FDFAC9 = {
+			isa = PBXGroup;
+			children = (
+				6706501723ABEB4700FDFAC9 /* Godz Eye */,
+				6706501623ABEB4700FDFAC9 /* Products */,
+				02150D88AFE3C099A50B60B6 /* Pods */,
+				F42884AD0223A37981DDD4DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6706501623ABEB4700FDFAC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6706501523ABEB4700FDFAC9 /* Godz Eye.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6706501723ABEB4700FDFAC9 /* Godz Eye */ = {
+			isa = PBXGroup;
+			children = (
+				6706502F23AC032000FDFAC9 /* Model */,
+				6706503023AC032900FDFAC9 /* View */,
+				6706503123AC033A00FDFAC9 /* Controller */,
+				6706501823ABEB4700FDFAC9 /* AppDelegate.swift */,
+				6706501A23ABEB4700FDFAC9 /* SceneDelegate.swift */,
+				6706502923ABEB4F00FDFAC9 /* Info.plist */,
+				6706502123ABEB4700FDFAC9 /* Godz_Eye.xcdatamodeld */,
+			);
+			path = "Godz Eye";
+			sourceTree = "<group>";
+		};
+		6706502F23AC032000FDFAC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6706503223AC041600FDFAC9 /* NetworkingClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6706503023AC032900FDFAC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6706501E23ABEB4700FDFAC9 /* Main.storyboard */,
+				6706502423ABEB4F00FDFAC9 /* Assets.xcassets */,
+				6706502623ABEB4F00FDFAC9 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6706503123AC033A00FDFAC9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6706501C23ABEB4700FDFAC9 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F42884AD0223A37981DDD4DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87F9FC0735E14D3928ACDECF /* Pods_Godz_Eye.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6706501423ABEB4700FDFAC9 /* Godz Eye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6706502C23ABEB4F00FDFAC9 /* Build configuration list for PBXNativeTarget "Godz Eye" */;
+			buildPhases = (
+				A0B328C8EEC418C432C03160 /* [CP] Check Pods Manifest.lock */,
+				6706501123ABEB4700FDFAC9 /* Sources */,
+				6706501223ABEB4700FDFAC9 /* Frameworks */,
+				6706501323ABEB4700FDFAC9 /* Resources */,
+				92535E535B7A385FE6DF53B2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Godz Eye";
+			productName = "Godz Eye";
+			productReference = 6706501523ABEB4700FDFAC9 /* Godz Eye.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6706500D23ABEB4700FDFAC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Antoine Perry";
+				TargetAttributes = {
+					6706501423ABEB4700FDFAC9 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 6706501023ABEB4700FDFAC9 /* Build configuration list for PBXProject "Godz Eye" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6706500C23ABEB4700FDFAC9;
+			productRefGroup = 6706501623ABEB4700FDFAC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6706501423ABEB4700FDFAC9 /* Godz Eye */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6706501323ABEB4700FDFAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6706502823ABEB4F00FDFAC9 /* LaunchScreen.storyboard in Resources */,
+				6706502523ABEB4F00FDFAC9 /* Assets.xcassets in Resources */,
+				6706502023ABEB4700FDFAC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92535E535B7A385FE6DF53B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Godz Eye/Pods-Godz Eye-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Godz Eye/Pods-Godz Eye-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Godz Eye/Pods-Godz Eye-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B328C8EEC418C432C03160 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Godz Eye-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6706501123ABEB4700FDFAC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6706503323AC041600FDFAC9 /* NetworkingClient.swift in Sources */,
+				6706501D23ABEB4700FDFAC9 /* ViewController.swift in Sources */,
+				6706501923ABEB4700FDFAC9 /* AppDelegate.swift in Sources */,
+				6706501B23ABEB4700FDFAC9 /* SceneDelegate.swift in Sources */,
+				6706502323ABEB4700FDFAC9 /* Godz_Eye.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6706501E23ABEB4700FDFAC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6706501F23ABEB4700FDFAC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6706502623ABEB4F00FDFAC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6706502723ABEB4F00FDFAC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6706502A23ABEB4F00FDFAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6706502B23ABEB4F00FDFAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6706502D23ABEB4F00FDFAC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 869DFF5B05410986C34DACC6 /* Pods-Godz Eye.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H8VGPKG6U;
+				INFOPLIST_FILE = "Godz Eye/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AntoinePerry.Godz-Eye";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6706502E23ABEB4F00FDFAC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2903241E62DCC18C775D4D19 /* Pods-Godz Eye.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4H8VGPKG6U;
+				INFOPLIST_FILE = "Godz Eye/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AntoinePerry.Godz-Eye";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6706501023ABEB4700FDFAC9 /* Build configuration list for PBXProject "Godz Eye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6706502A23ABEB4F00FDFAC9 /* Debug */,
+				6706502B23ABEB4F00FDFAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6706502C23ABEB4F00FDFAC9 /* Build configuration list for PBXNativeTarget "Godz Eye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6706502D23ABEB4F00FDFAC9 /* Debug */,
+				6706502E23ABEB4F00FDFAC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6706502123ABEB4700FDFAC9 /* Godz_Eye.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6706502223ABEB4700FDFAC9 /* Godz_Eye.xcdatamodel */,
+			);
+			currentVersion = 6706502223ABEB4700FDFAC9 /* Godz_Eye.xcdatamodel */;
+			path = Godz_Eye.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6706500D23ABEB4700FDFAC9 /* Project object */;
+}
